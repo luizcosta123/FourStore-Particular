@@ -1,41 +1,32 @@
 
-# FOURSTORE - GRUPO 1
+# FourStore - Particular 🟢
 
-FourStore é um projeto desenvolvido na linguagem Java pela turma do FourCamp 2, ministrado pelo professor Michel Antunes Simões. Nesse projeto, desenvolvemos um sistema de uma loja de roupas, no qual é possível realizar vendas, gerenciar diversas informações relacionadas ao produto, como estoque, preço de compra e venda, além de um amplo sistema de categorização dos produtos com base em um sku.
+This project is an update made by me of the project made in a group on fourcamp 2, it was fixed some bugs in the realization and sales registration part.
+FourStore is a clothing store project, developed in Java language, it has methods to manage products (registration, edition, listing, exclusion), manage sales (registration, listing), and they use a SKU as parameter to find the required entries.
 
+## Bugs fixed 🛠
 
-## Integrantes da equipe
+The "registerSale" method was receiving an overwritten list of products (cart), to solve this problem, an auxiliary list was created that creates a copy of the cart list, allowing the lists saved in saleData not to be overwritten
 
-- George Lucas dos Santos
+## Updates 💿
 
-- Igor Soares Fernandes
+- Added back options to some menu points.
 
-- Lucas Dosvaldo Silva
+- Regex were created for the validations of the following pix keys: CNPJ, EMAIL and PHONE.
 
-- Luiz Afonso Silva Costa;
+- The method that calculates net profit was created to be used in the sales record.
 
-- Paulo Dehon Nobre de Araujo Filho
+- Access control is being created! ⭕
 
-- Rafael Dias Simeoni
+## Coming soon 📀
 
-- Vanderson Mauricio Alves dos Santos;
+This project will be redone using Spring Boot!
 
-- Willian Nascimento da Silva
+### SKU examples
 
-## Tecnologias utilizadas
-
-- Linguagem Java
-
-- Eclipse IDE
-
-- Git
-
-## Alguns exemplos de SKU de produtos
-
-- Blusa vermelha: 11331030609253
-- Camiseta verde: 12360930309254
-- Camiseta roxa: 13360830309253
-- Blusa preta: 14330730609252
-- Jaqueta marrom: 15400660909253
-- Casaco laranja:  16380560909252
-# FourStore-Particular
+- Red shirt: 11331030609253
+- Green T-shirt: 12360930309254
+- Purple T-shirt: 13360830309253
+- Black shirt: 14330730609252
+- Brown jacket: 15400660909253
+- Orange coat: 16380560909252
