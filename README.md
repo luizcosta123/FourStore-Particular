@@ -10,13 +10,13 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 ## Updates:
 
-Foram adicionadas opções de voltar em alguns pontos do menu.
+- Foram adicionadas opções de voltar em alguns pontos do menu.
 
-Foram criado os Regex para as validações das seguintes chaves pix: CNPJ, EMAIL e TELEFONE.
+- Foram criado os Regex para as validações das seguintes chaves pix: CNPJ, EMAIL e TELEFONE.
 
-Foi acrescentado o método que calcula o lucro líquido para se colocar no registro da venda.
+- Foi acrescentado o método que calcula o lucro líquido para se colocar no registro da venda.
 
-coloquei um contrrrole de acesso
+- coloquei um contrrrole de acesso
 
 ### Alguns exemplos de SKU de produtos
 
