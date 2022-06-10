@@ -18,11 +18,11 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 - Access control is being created! ⭕
 
-### Alguns exemplos de SKU de produtos
+### SKU examples
 
-- Blusa vermelha: 11331030609253
-- Camiseta verde: 12360930309254
-- Camiseta roxa: 13360830309253
-- Blusa preta: 14330730609252
-- Jaqueta marrom: 15400660909253
-- Casaco laranja:  16380560909252
+- Red blouse: 11331030609253
+- Green T-shirt: 12360930309254
+- Purple T-shirt: 13360830309253
+- Black blouse: 14330730609252
+- Brown jacket: 15400660909253
+- Orange coat: 16380560909252
