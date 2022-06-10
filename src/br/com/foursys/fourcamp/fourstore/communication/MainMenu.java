@@ -32,17 +32,18 @@ public class MainMenu {
 	private void primaryMenu() {
 		Integer option = -1;
 		String entrada;
-		char[] senha;
+		String senha;
 		Console console = System.console();
 
 		while (option != 0) {
-			System.out.println("\n\n==========FOURSTORE=============||");
-			System.out.println("1 - Produtos                    ||");
-			System.out.println("2 - Vendas                      ||");
-			System.out.println("0 - Sair do sistema             ||");
-			System.out.print("Insira uma opção: ");
+			System.out.print("\n==========FOURSTORE=============||"
+							 + "\n1 - Produtos                    ||"
+							 + "\n2 - Vendas                      ||"
+							 + "\n0 - Sair do sistema             ||"
+							 + "\n================================||"
+							 + "\nInsira uma opção: ");
 			entrada = scanner.next();
-			System.out.println("----------------------------------\n");
+			System.out.println("\n----------------------------------\n");
 
 			option = menuController.validationRegexMenu(entrada, "[0-6]");
 
@@ -51,13 +52,24 @@ public class MainMenu {
 				System.out.println("\nSistema encerrado");
 				break;
 			case 1:
-				if(console != null) {
-					senha = console.readPassword("Ditgite sua senha: ");
+				System.out.print("Digite sua senha: ");
+				senha = scanner.next();
+				
+				if(menuController.verificaPassword(senha)) {
+					this.menuProducts();
 				}
-				this.menuProducts();
+				
+				System.out.println("Senha inválida!");
 				break;
 			case 2:
-				this.menuSales();
+				System.out.print("Digite sua senha: ");
+				senha = scanner.next();
+				
+				if(menuController.verificaPassword(senha)) {
+					this.menuSales();
+				}
+				
+				System.out.println("Senha inválida!");
 				break;
 			default:
 				System.out.println("\nOpcao Invalida. Tente Novamente. \n");
@@ -70,7 +82,9 @@ public class MainMenu {
 		String entrada;
 
 		while (option != 0) {
-			System.out.println("1 - Realizar Venda" + "\n2 - Consultar o histórico de vendas" + "\n0 - Para voltar");
+			System.out.println("\n|| 1 - Realizar Venda                  ||"
+							 + "\n|| 2 - Consultar o histórico de vendas ||"
+							 + "\n|| 0 - Para voltar                     ||");
 			entrada = scanner.next();
 
 			option = menuController.validationRegexMenu(entrada, "[0-6]");
@@ -132,7 +146,7 @@ public class MainMenu {
 			
 			System.out.println(saleController.addCart(sku, qtt));
 			
-			System.out.println("Deseja inserir outro produto?\n 1 - sim\n2 - nao");
+			System.out.println("Deseja inserir outro produto ? (1 - sim / 2 - nao)");
 			option = scanner.nextInt();
 			
 			if(option == 1) {
@@ -149,14 +163,14 @@ public class MainMenu {
 		String nome;
 
 		while (true) {
-			System.out.println("deseja colocar o cpf? 1-sim ou 2-nao ?");
+			System.out.println("deseja colocar o CPF ? (1 - sim / 2 - nao)");
 			resposta = scanner.nextInt();
 			if (resposta == 1) {
 				while (true) {
-					System.out.println("digite o cpf: ");
+					System.out.println("digite o CPF: ");
 					cpf = scanner.next();
 					if(!menuController.validateCpfRegex(cpf)) {
-						System.out.println("O cpf deve ter o seguinte formato xxx.xxx.xxx-xx");
+						System.out.println("O CPF deve ter o seguinte formato xxx.xxx.xxx-xx");
 					} else if (menuController.validarCpf(cpf)) {
 						System.out.println("Digite o nome do cliente");
 						nome = scanner.next();
@@ -249,9 +263,15 @@ public class MainMenu {
 		String entrada;
 
 		while (option != 0) {
-			System.out.println("1 - Cadastrar Produto" + "\n2 - Buscar Produto por id" + "\n3 - Buscar Produto por sku"
-					+ "\n4 - Lista Produtos" + "\n5 - Atualizar Produto por id" + "\n6 - Atualizar produto por sku"
-					+ "\n7 - Excluir Produto pelo id" + "\n8 - Excluir Produto pelo sku" + "\n0 - Para voltar");
+			System.out.println("\n|| 1 - Cadastrar Produto          ||"
+							 + "\n|| 2 - Buscar Produto por id      ||"
+							 + "\n|| 3 - Buscar Produto por sku     ||"
+							 + "\n|| 4 - Lista Produtos             ||"
+							 + "\n|| 5 - Atualizar Produto por id   ||"
+							 + "\n|| 6 - Atualizar produto por sku  ||"
+							 + "\n|| 7 - Excluir Produto pelo id    ||"
+							 + "\n|| 8 - Excluir Produto pelo sku   ||"
+							 + "\n|| 0 - Para voltar                ||");
 
 			entrada = scanner.next();
 

@@ -28,7 +28,10 @@ public class MenuController {
 	public boolean validatePixRegex(String pix) {
 		return validations.validatePixRegex(pix);
 	}
-		
+	
+	public boolean verificaPassword(String password) {
+		return validations.validatePassword(password);
+	}
 }
 
 
