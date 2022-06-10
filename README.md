@@ -4,11 +4,11 @@
 This project is an update made by me of the project made in a group on fourcamp 2, it was fixed some bugs in the realization and sales registration part.
 FourStore is a clothing store project, developed in Java language, it has methods to manage products (registration, edition, listing, exclusion), manage sales (registration, listing), and they use a SKU as parameter to find the required entries.
 
-## Bugs fixed 🛠:
+## Bugs fixed 🛠
 
 The "registerSale" method was receiving an overwritten list of products (cart), to solve this problem, an auxiliary list was created that creates a copy of the cart list, allowing the lists saved in saleData not to be overwritten
 
-## Updates:
+## Updates 💿📀
 
 - Added back options to some menu points.
 
@@ -18,7 +18,7 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 - Access control is being created! ⭕
 
-## Coming soon 👨‍💻
+## Coming soon 📀
 
 Este projeto será refeito utilizando Spring Boot!
 
