@@ -20,9 +20,9 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 ### SKU examples
 
-- Red blouse: 11331030609253
+- Red shirt: 11331030609253
 - Green T-shirt: 12360930309254
 - Purple T-shirt: 13360830309253
-- Black blouse: 14330730609252
+- Black shirt: 14330730609252
 - Brown jacket: 15400660909253
 - Orange coat: 16380560909252
