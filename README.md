@@ -20,7 +20,7 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 ## Coming soon 📀
 
-Este projeto será refeito utilizando Spring Boot!
+This project will be redone using Spring Boot!
 
 ### SKU examples
 
