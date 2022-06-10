@@ -8,7 +8,7 @@ FourStore is a clothing store project, developed in Java language, it has method
 
 Luiz Afonso Silva Costa
 
-## Integrantes da equipe
+### Integrantes da equipe
 
 - George Lucas dos Santos
 
@@ -26,7 +26,7 @@ Luiz Afonso Silva Costa
 
 - Willian Nascimento da Silva
 
-## Tecnologias utilizadas
+### Tecnologias utilizadas
 
 - Linguagem Java
 
@@ -34,7 +34,7 @@ Luiz Afonso Silva Costa
 
 - Git
 
-## Alguns exemplos de SKU de produtos
+### Alguns exemplos de SKU de produtos
 
 - Blusa vermelha: 11331030609253
 - Camiseta verde: 12360930309254
