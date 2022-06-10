@@ -18,6 +18,10 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 - Access control is being created! ⭕
 
+## Coming soon 👨‍💻
+
+Este projeto será refeito utilizando Spring Boot!
+
 ### SKU examples
 
 - Red shirt: 11331030609253
