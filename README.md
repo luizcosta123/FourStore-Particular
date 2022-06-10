@@ -1,8 +1,8 @@
 
 # FOURSTORE - GRUPO 1
 
-FourStore é um projeto desenvolvido na linguagem Java pela turma do FourCamp 2, ministrado pelo professor Michel Antunes Simões. Nesse projeto, desenvolvemos um sistema de uma loja de roupas, no qual é possível realizar vendas, gerenciar diversas informações relacionadas ao produto, como estoque, preço de compra e venda, além de um amplo sistema de categorização dos produtos com base em um sku.
-
+This project is an update made by me of the project made in a group on fourcamp 2, it was fixed some bugs in the realization and sales registration part.
+FourStore is a clothing store project, developed in Java language, it has methods to manage products (registration, edition, listing, exclusion), manage sales (registration, listing), and they use a SKU as parameter to find the required entries.
 
 ## Integrantes da equipe
 
