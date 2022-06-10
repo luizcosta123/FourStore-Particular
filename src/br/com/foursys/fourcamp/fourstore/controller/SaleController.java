@@ -36,9 +36,9 @@ public class SaleController {
 		Client client = clientService.findByCPF(cpf);
 		Double amountValue = this.amountValue(saleService.cart());
 		Double profit = this.profit(saleService.cart());
-		ArrayList teste = new ArrayList(this.cart());
+		ArrayList totalCart = new ArrayList(this.cart());
 		
-		Sale sale = new Sale(client, teste, amountValue, profit, paymentmethod);
+		Sale sale = new Sale(client, totalCart, amountValue, profit, paymentmethod);
 		
 		saleService.saveSale(sale);
 		
@@ -48,9 +48,9 @@ public class SaleController {
 	public String saleRegister(PaymentMethod paymentmethod) {
 		Double amountValue = this.amountValue(saleService.cart());
 		Double profit = this.profit(saleService.cart());
-		ArrayList teste = new ArrayList(this.cart());
+		ArrayList totalCart = new ArrayList(this.cart());
 		
-		Sale sale = new Sale(teste, amountValue, profit, paymentmethod);
+		Sale sale = new Sale(totalCart, amountValue, profit, paymentmethod);
 		
 		saleService.saveSale(sale);
 		
