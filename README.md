@@ -8,6 +8,16 @@ FourStore is a clothing store project, developed in Java language, it has method
 
 The "registerSale" method was receiving an overwritten list of products (cart), to solve this problem, an auxiliary list was created that creates a copy of the cart list, allowing the lists saved in saleData not to be overwritten
 
+## Updates:
+
+Foram adicionadas opções de voltar em alguns pontos do menu.
+
+Foram criado os Regex para as validações das seguintes chaves pix: CNPJ, EMAIL e TELEFONE.
+
+Foi acrescentado o método que calcula o lucro líquido para se colocar no registro da venda.
+
+coloquei um contrrrole de acesso
+
 ### Alguns exemplos de SKU de produtos
 
 - Blusa vermelha: 11331030609253
