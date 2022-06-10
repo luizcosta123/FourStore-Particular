@@ -8,34 +8,6 @@ FourStore is a clothing store project, developed in Java language, it has method
 
 The "registerSale" method was receiving an overwritten list of products (cart), to solve this problem, an auxiliary list was created that creates a copy of the cart list, allowing the lists saved in saleData not to be overwritten
 
-Luiz Afonso Silva Costa
-
-### Integrantes da equipe
-
-- George Lucas dos Santos
-
-- Igor Soares Fernandes
-
-- Lucas Dosvaldo Silva
-
-- Luiz Afonso Silva Costa;
-
-- Paulo Dehon Nobre de Araujo Filho
-
-- Rafael Dias Simeoni
-
-- Vanderson Mauricio Alves dos Santos;
-
-- Willian Nascimento da Silva
-
-### Tecnologias utilizadas
-
-- Linguagem Java
-
-- Eclipse IDE
-
-- Git
-
 ### Alguns exemplos de SKU de produtos
 
 - Blusa vermelha: 11331030609253
