@@ -16,7 +16,7 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 - The method that calculates net profit was created to be used in the sales record.
 
-- Access control is being created! ⭕
+- Access control for menu options has been created!
 
 ## Coming soon 📀
 
