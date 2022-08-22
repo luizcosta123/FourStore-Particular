@@ -22,7 +22,7 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 This project will be redone using Spring Boot!
 
-## Team Members
+## Team Members 🧬
 
 - George Lucas dos Santos
 
