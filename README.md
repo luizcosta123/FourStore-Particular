@@ -22,6 +22,24 @@ The "registerSale" method was receiving an overwritten list of products (cart), 
 
 This project will be redone using Spring Boot!
 
+## Team Members
+
+- George Lucas dos Santos
+
+- Igor Soares Fernandes
+
+- Lucas Dosvaldo Silva
+
+- Luiz Afonso Silva Costa;
+
+- Paulo Dehon Nobre de Araujo Filho
+
+- Rafael Dias Simeoni
+
+- Vanderson Mauricio Alves dos Santos;
+
+- Willian Nascimento da Silva
+
 ### SKU examples
 
 - Red shirt: 11331030609253
