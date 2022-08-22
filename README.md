@@ -6,7 +6,7 @@ FourStore is a clothing store project, developed in Java language, it has method
 
 ## Bugs fixed 🛠
 
-The "registerSale" method was receiving an overwritten list of products (cart), to solve this problem, an auxiliary list was created that creates a copy of the cart list, allowing the lists saved in saleData not to be overwritten
+The "registerSale" method was receiving an overwritten list of products (cart), to solve this problem, an auxiliary list was created that creates a copy of the cart list, allowing the lists saved in saleData not to be overwritten.
 
 ## Updates 💿
 
@@ -24,21 +24,21 @@ This project will be redone using Spring Boot!
 
 ## Team Members 🧬
 
-- George Lucas dos Santos
+- George Lucas dos Santos;
 
-- Igor Soares Fernandes
+- Igor Soares Fernandes;
 
-- Lucas Dosvaldo Silva
+- Lucas Dosvaldo Silva;
 
 - Luiz Afonso Silva Costa;
 
-- Paulo Dehon Nobre de Araujo Filho
+- Paulo Dehon Nobre de Araujo Filho;
 
-- Rafael Dias Simeoni
+- Rafael Dias Simeoni;
 
 - Vanderson Mauricio Alves dos Santos;
 
-- Willian Nascimento da Silva
+- Willian Nascimento da Silva.
 
 ### SKU examples
 
