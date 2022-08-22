@@ -40,7 +40,7 @@ This project will be redone using Spring Boot!
 
 - Willian Nascimento da Silva.
 
-### SKU examples
+## SKU examples
 
 - Red shirt: 11331030609253
 - Green T-shirt: 12360930309254
